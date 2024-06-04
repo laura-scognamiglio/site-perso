@@ -3,216 +3,228 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link href="style.css" rel="stylesheet" />
+    <link href="./style.css" rel="stylesheet" />
+    <link rel="manifest" href="portfolio.json" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script type="text/javascript" src="script.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ffffff"/>
     <title>Laura Scognamiglio</title>
   </head>
   <body>
-    <header>
-      <nav>
-          <div class="topnav" id="myTopnav">
-            <ul id="myLinks">
-              <!-- <li> -->
-                <a href="#about" class="active">About</a>
-              <!-- </li> -->
-              <!-- <li> -->
-                <a href="#portfolio">Portfolio</a>
-              <!-- </li> -->
-              <!-- <li> -->
-                
-              <!-- </li> -->
-              <!-- <li> -->
-                <a href="https://www.linkedin.com/in/laura-scognamiglio-devweb/"
-                class="link"
-                target="_blank">Linkedin</a>
-              <!-- </li> -->
-              <!-- <li> -->
-                
-              <!-- </li> -->
-              <!-- <li> -->
-                <a href="mailto: laura.scognamiglio@laplateforme.io"
-                subject="Feedback"
-                class="link"
-                target="_blank">Contact</a>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/service-worker.js')
+              .then((registration) => {
+                console.log('Service Worker registered with scope:', registration.scope);
+              }).catch((error) => {
+        console.log('Service Worker registration failed:', error);
+      });
+    }
+  </script>
+<!--    <header>-->
+<!--      <nav>-->
+<!--          <div class="topnav" id="myTopnav">-->
+<!--            <ul id="myLinks">-->
+<!--              &lt;!&ndash; <li> &ndash;&gt;-->
+<!--                <a href="#about" class="active">About</a>-->
+<!--              &lt;!&ndash; </li> &ndash;&gt;-->
+<!--              &lt;!&ndash; <li> &ndash;&gt;-->
+<!--                <a href="#portfolio">Portfolio</a>-->
+<!--              &lt;!&ndash; </li> &ndash;&gt;-->
+<!--              &lt;!&ndash; <li> &ndash;&gt;-->
+<!--                -->
+<!--              &lt;!&ndash; </li> &ndash;&gt;-->
+<!--              &lt;!&ndash; <li> &ndash;&gt;-->
+<!--                <a href="https://www.linkedin.com/in/laura-scognamiglio-devweb/"-->
+<!--                class="link"-->
+<!--                target="_blank">Linkedin</a>-->
+<!--              &lt;!&ndash; </li> &ndash;&gt;-->
+<!--              &lt;!&ndash; <li> &ndash;&gt;-->
+<!--                -->
+<!--              &lt;!&ndash; </li> &ndash;&gt;-->
+<!--              &lt;!&ndash; <li> &ndash;&gt;-->
+<!--                <a href="mailto: laura.scognamiglio@laplateforme.io"-->
+<!--                subject="Feedback"-->
+<!--                class="link"-->
+<!--                target="_blank">Contact</a>-->
 
-                <a href="https://github.com/laura-scognamiglio" target="_blank">Git</a>
+<!--                <a href="https://github.com/laura-scognamiglio" target="_blank">Git</a>-->
 
-                <a href="https://drive.google.com/file/d/1rLCM4LceJfBb6EKWfTxBMU9Ivz5t4AlW/view?usp=sharing" target="_blank">Cv</a>
-              <!-- </li> -->
-            </ul>
-            <a 
-              class="icon" >
-              <i class="fa fa-bars"></i>
-            </a>
-        </div>
-      </nav>
-      <!-- <hr /> -->
-    </header>
+<!--                <a href="https://drive.google.com/file/d/1rLCM4LceJfBb6EKWfTxBMU9Ivz5t4AlW/view?usp=sharing" target="_blank">Cv</a>-->
+<!--              &lt;!&ndash; </li> &ndash;&gt;-->
+<!--            </ul>-->
+<!--            <a -->
+<!--              class="icon" >-->
+<!--              <i class="fa fa-bars"></i>-->
+<!--            </a>-->
+<!--        </div>-->
+<!--      </nav>-->
+<!--      &lt;!&ndash; <hr /> &ndash;&gt;-->
+<!--    </header>-->
     <main>
-      <article>
-        <section class="title">
-          <p>Student<br/>Web<br/>Developer</p>
-          <section class="photoId">
-            <div class="circle"></div>
-          </section>
-        </section>
-      </article>
+<!--      <article>-->
+<!--        <section class="title">-->
+<!--          <p>Student<br/>Web<br/>Developer</p>-->
+<!--          <section class="photoId">-->
+<!--            <div class="circle"></div>-->
+<!--          </section>-->
+<!--        </section>-->
+<!--      </article>-->
      
 
-      <section class="desc">
-        <p class="speech" id="about">
-          Étudiante en 1ère année de la Coding School à la Plateforme, la
-          nouvelle école du numérique de la Métropole Aix-Marseille.<br />
-          <br />
-          Formation de développeur back et front.<br />
-          Pédagogie active basée sur des projets et réalisée en alternance en
-          2de année.<br />
-          <br />
-          Préparation du titre RNCP Concepteur, Développeur d'applications
-          web et mobile, en 2de année <br />
-          <br />
-          Prix de l'économie (meilleur buisness potentiel) au Hackathon Laplateforme 
-        </p>
-      </section>
+<!--      <section class="desc">-->
+<!--        <p class="speech" id="about">-->
+<!--          Étudiante en 1ère année de la Coding School à la Plateforme, la-->
+<!--          nouvelle école du numérique de la Métropole Aix-Marseille.<br />-->
+<!--          <br />-->
+<!--          Formation de développeur back et front.<br />-->
+<!--          Pédagogie active basée sur des projets et réalisée en alternance en-->
+<!--          2de année.<br />-->
+<!--          <br />-->
+<!--          Préparation du titre RNCP Concepteur, Développeur d'applications-->
+<!--          web et mobile, en 2de année <br />-->
+<!--          <br />-->
+<!--          Prix de l'économie (meilleur buisness potentiel) au Hackathon Laplateforme -->
+<!--        </p>-->
+<!--      </section>-->
 
-      <article class="grpComp">
-        <section class="prez">
-          <p>Compétences acquises:</p>
-        </section>
-        <section class="grpLogo comp">
-          <section class="logo">
-     
-            <p class="subtitle">Html5</p>
-          </section>
-          <section class="logo">
-           
-            <p class="subtitle">Css3</p>
-          </section>
-          <section class="logo">
-           
-            <p class="subtitle">Javascript</p>
-          </section>
-          <section class="logo">
-          
-            <p class="subtitle">Sass</p>
-          </section>
-          <section class="logo">
-          
-            <p class="subtitle">Mysqli</p>
-          </section>
-          <section class="logo">
-           
-            <p class="subtitle">PHP</p>
-          </section>
-          <section class="logo">
-            
-            <p class="subtitle">Figma</p>
-          </section>
-          <section class="logo">
-            
-            <p class="subtitle">Wordpress</p>
-          </section>
-          <section class="logo">
-           
-            <p class="subtitle">Swift</p>
-          </section>
-        </section>
-        <section class="prez">
-          <p>Compétences en cours:</p>
-        </section>
-        <section class="grpLogo comp">
-          <section class="logo">
-           
-            <p class="subtitle">React</p>
-          </section>
-          <section class="logo">
-            
-            <p class="subtitle">Symphony</p>
-          </section>
-          <section class="logo">
-            
-            <p class="subtitle">Nodejs</p>
-          </section>
-          <section class="logo">
-            
-            <p class="subtitle">Python</p>
-          </section>
-        </section>
-      </article>
+<!--      <article class="grpComp">-->
+<!--        <section class="prez">-->
+<!--          <p>Compétences acquises:</p>-->
+<!--        </section>-->
+<!--        <section class="grpLogo comp">-->
+<!--          <section class="logo">-->
+<!--     -->
+<!--            <p class="subtitle">Html5</p>-->
+<!--          </section>-->
+<!--          <section class="logo">-->
+<!--           -->
+<!--            <p class="subtitle">Css3</p>-->
+<!--          </section>-->
+<!--          <section class="logo">-->
+<!--           -->
+<!--            <p class="subtitle">Javascript</p>-->
+<!--          </section>-->
+<!--          <section class="logo">-->
+<!--          -->
+<!--            <p class="subtitle">Sass</p>-->
+<!--          </section>-->
+<!--          <section class="logo">-->
+<!--          -->
+<!--            <p class="subtitle">Mysqli</p>-->
+<!--          </section>-->
+<!--          <section class="logo">-->
+<!--           -->
+<!--            <p class="subtitle">PHP</p>-->
+<!--          </section>-->
+<!--          <section class="logo">-->
+<!--            -->
+<!--            <p class="subtitle">Figma</p>-->
+<!--          </section>-->
+<!--          <section class="logo">-->
+<!--            -->
+<!--            <p class="subtitle">Wordpress</p>-->
+<!--          </section>-->
+<!--          <section class="logo">-->
+<!--           -->
+<!--            <p class="subtitle">Swift</p>-->
+<!--          </section>-->
+<!--        </section>-->
+<!--        <section class="prez">-->
+<!--          <p>Compétences en cours:</p>-->
+<!--        </section>-->
+<!--        <section class="grpLogo comp">-->
+<!--          <section class="logo">-->
+<!--           -->
+<!--            <p class="subtitle">React</p>-->
+<!--          </section>-->
+<!--          <section class="logo">-->
+<!--            -->
+<!--            <p class="subtitle">Symphony</p>-->
+<!--          </section>-->
+<!--          <section class="logo">-->
+<!--            -->
+<!--            <p class="subtitle">Nodejs</p>-->
+<!--          </section>-->
+<!--          <section class="logo">-->
+<!--            -->
+<!--            <p class="subtitle">Python</p>-->
+<!--          </section>-->
+<!--        </section>-->
+<!--      </article>-->
 
-      <article id="portfolio">
-        <section class="landscape">
-          <a href="https://github.com/laura-savickaite/voyages">
-          <img class="reveal" src="asset/img/chef.png" alt="projet voyage" />
-        </a>
-        </section>
+<!--      <article id="portfolio">-->
+<!--        <section class="landscape">-->
+<!--          <a href="https://github.com/laura-savickaite/voyages">-->
+<!--          <img class="reveal" src="asset/img/chef.png" alt="projet voyage" />-->
+<!--        </a>-->
+<!--        </section>-->
 
-        <section class="landscape">
-          <a href="https://laura-scognamiglio.students-laplateforme.io/livre-d-or/index.php">
-          <img
-            class="reveal"
-            src="asset/img/send.png"
-            alt="project livre d'or"
-          />
-          </a>
-        </section>
+<!--        <section class="landscape">-->
+<!--          <a href="https://laura-scognamiglio.students-laplateforme.io/livre-d-or/index.php">-->
+<!--          <img-->
+<!--            class="reveal"-->
+<!--            src="asset/img/send.png"-->
+<!--            alt="project livre d'or"-->
+<!--          />-->
+<!--          </a>-->
+<!--        </section>-->
 
-        <section class="landscape">
-          <a href="https://laura-scognamiglio.students-laplateforme.io/blog/index.php">
-          <img class="reveal" src="asset/img/blog.png" alt="project blog" />
-          </a>
-        </section>
+<!--        <section class="landscape">-->
+<!--          <a href="https://laura-scognamiglio.students-laplateforme.io/blog/index.php">-->
+<!--          <img class="reveal" src="asset/img/blog.png" alt="project blog" />-->
+<!--          </a>-->
+<!--        </section>-->
 
-        <section class="landscape">
-          <a href="https://laura-scognamiglio.students-laplateforme.io/reservation-salles/index.php">
-          <video
-            autoplay
-            loop
-            muted
-            class="reveal"
-            src="asset/img/video.mov"
-            type="video/mov"
-          ></video>
-        </a>
-        </section>
+<!--        <section class="landscape">-->
+<!--          <a href="https://laura-scognamiglio.students-laplateforme.io/reservation-salles/index.php">-->
+<!--          <video-->
+<!--            autoplay-->
+<!--            loop-->
+<!--            muted-->
+<!--            class="reveal"-->
+<!--            src="asset/img/video.mov"-->
+<!--            type="video/mov"-->
+<!--          ></video>-->
+<!--        </a>-->
+<!--        </section>-->
 
-        <section class="landscape">
-          <a href="https://laura-scognamiglio.students-laplateforme.io/moduleconnexion/index.php">
-            <img
-              class="reveal"
-              src="asset/img/bloopbig.png"
-              alt="project module de connexion"
-            />
-          </a>
-        </section>
-        <section class="landscape">
-          <a href="https://laura-scognamiglio.students-laplateforme.io/CMS/">
-          <img
-            class="reveal"
-            src="asset/img/cms.png"
-            alt="project module de connexion"
-          />
-        </a>
-        </section>
+<!--        <section class="landscape">-->
+<!--          <a href="https://laura-scognamiglio.students-laplateforme.io/moduleconnexion/index.php">-->
+<!--            <img-->
+<!--              class="reveal"-->
+<!--              src="asset/img/bloopbig.png"-->
+<!--              alt="project module de connexion"-->
+<!--            />-->
+<!--          </a>-->
+<!--        </section>-->
+<!--        <section class="landscape">-->
+<!--          <a href="https://laura-scognamiglio.students-laplateforme.io/CMS/">-->
+<!--          <img-->
+<!--            class="reveal"-->
+<!--            src="asset/img/cms.png"-->
+<!--            alt="project module de connexion"-->
+<!--          />-->
+<!--        </a>-->
+<!--        </section>-->
 
-        <section class="landscape">
-          <img
-            class="apple"
-            src="asset/img/tel.png"
-            alt="project module de connexion"
-          />
-        </section>
+<!--        <section class="landscape">-->
+<!--          <img-->
+<!--            class="apple"-->
+<!--            src="asset/img/tel.png"-->
+<!--            alt="project module de connexion"-->
+<!--          />-->
+<!--        </section>-->
 
-        <section class="landscape">
-          <img
-            class="apple"
-            src="asset/img/ipad.png"
-            alt="project module de connexion"
-          />
-        </section>
-      </article>
+<!--        <section class="landscape">-->
+<!--          <img-->
+<!--            class="apple"-->
+<!--            src="asset/img/ipad.png"-->
+<!--            alt="project module de connexion"-->
+<!--          />-->
+<!--        </section>-->
+<!--      </article>-->
     </main>
   </body>
 </html>

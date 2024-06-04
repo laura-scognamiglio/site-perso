@@ -1,0 +1,21 @@
+{
+  "background_color": "#ffffff",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "laura-scognamiglio.portfolio",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "portfolio",
+  "start_url": "/https://laura-scognamiglio.students-laplateforme.io/",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "asset/img/stars-svgrepo-com.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "id": "laura-scognamiglio.portfolio.pwa",
+  "description": "simple portfolio turned into a pwa",
+  "lang": "fr"
+}
